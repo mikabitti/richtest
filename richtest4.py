@@ -3,7 +3,7 @@ from rich import print
 from rich.logging import RichHandler
 import logging
 import time
-from status_tracker_panel import StatusTracker
+from simple_status_tracker_panel import StatusTracker
 
 # Setup logging (same as your original)
 file_handler = logging.FileHandler("rich_log.log", mode="w")
